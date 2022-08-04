@@ -1,6 +1,6 @@
 # DESAFIO KLOK
 
-<img align="center" src="./desafio.png">
+<div style="text-align:center"><img src="desafio.png" /></div>
 
 ## REQUISITOS:
 - Implementar uma API RESTFul capaz de gerenciar vendas (cadastrar; atualizar; e cancelar;) e gerar cobranças para estas vendas através de um job/scheduler configurável.
@@ -26,8 +26,8 @@
 - RabbitMQ ou SQS
 - SQL Migration com Flyway
 - ApiDoc com Swagger
-- Postgres
-
+- Angular 9+
+- Postgres 10+
 
 ## CRITÉRIOS AVALIADOS:
 - Funcionamento;

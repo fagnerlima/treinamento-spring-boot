@@ -1,6 +1,9 @@
 # DESAFIO KLOK
 
-<div style="text-align:center"><img src="desafio.png" /></div>
+<div align="center">
+    <img src="desafio.png" />
+</div>
+
 
 ## REQUISITOS:
 - Implementar uma API RESTFul capaz de gerenciar vendas (cadastrar; atualizar; e cancelar;) e gerar cobranças para estas vendas através de um job/scheduler configurável.

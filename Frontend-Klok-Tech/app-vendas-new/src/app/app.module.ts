@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MaterialModule } from './shared/material.module';
 
@@ -38,6 +39,7 @@ import { CobrancaListarComponent } from './components/cobranca/cobranca-listar/c
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MaterialModule,
     FormsModule,
     ReactiveFormsModule

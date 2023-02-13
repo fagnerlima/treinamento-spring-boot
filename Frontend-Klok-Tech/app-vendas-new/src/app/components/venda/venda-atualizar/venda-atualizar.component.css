@@ -1,0 +1,19 @@
+.dados > h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+#atualizar {
+    margin-right: 10px;
+    background-color: #4428AA;
+}
+
+#voltar {
+    background-color: #525252;
+}

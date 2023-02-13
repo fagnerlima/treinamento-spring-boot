@@ -1,0 +1,22 @@
+.sidenav {
+    background-color: rgb(34, 34, 34);
+    width: 200px;
+}
+
+.sidenav a {
+    color: #fff;
+    margin-top: 0;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: white;
+}
+
+.sidenav a:hover {
+    color: rgb(68, 40, 170);
+}

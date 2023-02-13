@@ -1,0 +1,31 @@
+<div class="container-gerar-venda">
+    <mat-card>
+
+        <mat-card-title>Gerar Venda</mat-card-title>
+
+        <div class="form-venda">
+            <form [formGroup]="vendaForm" (ngSubmit)="gerarVenda()">
+                <div>
+                    <h4>Valor minimo: R$ 1,00</h4>
+                    <mat-form-field appearance="outline">
+                        <mat-label for="cliente">Nome do cliente</mat-label>
+                        <input matInput type="text" id="cliente" formControlName="cliente">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="outline" class="quantidade">
+                        <mat-label for="valorVenda">Valor da venda</mat-label>
+                        <input matInput placeholder="R$" type="text" id="name" formControlName="valorVenda">
+                    </mat-form-field>
+                </div>
+                <div>
+                    <button mat-raised-button type="submit" id="gerar-venda" [disabled]="!vendaForm.valid">
+                        Gerar Venda
+                    </button>
+                    <button mat-raised-button type="submit" id="voltar" [routerLink]="['/vendas']">
+                        Voltar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+</div>

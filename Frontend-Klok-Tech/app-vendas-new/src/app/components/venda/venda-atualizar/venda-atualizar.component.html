@@ -1,0 +1,25 @@
+<div class="container-pagamento">
+    <mat-card>
+         <mat-card-title>Cancelar venda</mat-card-title>
+         
+         <div class="dados">
+             <h2><strong>Cliente atual: </strong>{{ venda.cliente }}</h2>
+             <h2><strong>Valor: </strong>{{ venda.valorVenda | currency: 'BRL'}}</h2>
+             <h2><strong>Data/Hora: </strong>{{ venda.dataVenda }}</h2>
+         </div>
+         <mat-form-field appearance="outline" class="quantidade">
+             <mat-label for="nomeCliente">Cliente</mat-label>
+             <input matInput type="text" id="name" [(ngModel)]="nomeCliente">
+         </mat-form-field>
+         <div class="form-button">
+             <div>
+                 <button mat-raised-button type="submit" id="atualizar" [disabled]="!nomeCliente"  (click)="atualizarVenda()">
+                     Atualizar
+                 </button>
+                 <button mat-raised-button type="submit" id="voltar" [routerLink]="['/vendas']">
+                     Voltar
+                 </button>
+             </div>
+         </div>
+     </mat-card>
+ </div>

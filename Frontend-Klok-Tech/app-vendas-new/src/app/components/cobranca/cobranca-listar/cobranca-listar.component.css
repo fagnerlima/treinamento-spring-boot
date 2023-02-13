@@ -1,0 +1,32 @@
+button {
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+.texto-pesquisa {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.form-pesquisar {
+    margin-top: 20px;
+}
+
+#btn-pesquisar {
+    margin-left: 20px;
+    color: white;
+    background-color: #4428AA;  
+}
+
+#btn-pagar {
+  color: #4428AA;  
+  margin-right: 10px;
+}
+
+#btn-pagar:hover {
+    color: white;
+    background-color: #4428AA;
+}

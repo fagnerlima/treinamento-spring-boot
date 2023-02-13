@@ -1,0 +1,17 @@
+.titulo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+mat-icon {
+    color: #4428AA;
+}
+
+.topico {
+    font-size: 1.4rem;
+}
+
+.lista {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}

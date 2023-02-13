@@ -65,7 +65,7 @@
 
 > java -jar api-pagamentos-0.0.1-SNAPSHOT.jar
 
-<p>Por último, acesse o caminho Frontend/app-vendas, dentro do repositório, em um novo terminal e execute o comando:</p>
+<p>Por último, acesse o caminho Frontend-Klok-Tech/app-vendas-new, dentro do repositório, em um novo terminal e execute o comando:</p>
 
 > npm install
 

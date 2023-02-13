@@ -37,7 +37,7 @@
 
 > docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq rabbitmq:3.11-management
 
-<h4>- Executando os bancos de dados</h4>
+<h3>- Executando os bancos de dados</h3>
 
 <p>Acesse o caminho Docker\db-vendas, dentro do repositório, no terminal, e execute o seguinte comando:</p>
 
@@ -47,7 +47,7 @@
 
 > docker-compose up -d
 
-<h4>- Executando o back-end</h4>
+<h3>- Executando o back-end</h3>
 
 <p>Acesse o caminho Backend/api-vendas, dentro do repositório, no terminal, e execute o comando:</p>
 
@@ -64,6 +64,8 @@
 <p>Em seguida execute o comando abaixo e deixe o terminal aberto ou minimize:</p>
 
 > java -jar api-pagamentos-0.0.1-SNAPSHOT.jar
+
+<h3>- Executando o front-end</h3>
 
 <p>Por último, acesse o caminho Frontend-Klok-Tech/app-vendas-new, dentro do repositório, em um novo terminal e execute o comando:</p>
 

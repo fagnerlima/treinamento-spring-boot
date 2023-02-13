@@ -1,0 +1,32 @@
+button {
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+#gerar-venda {
+    margin-top: 10px;
+    color: white;
+    background-color: #4428AA;  
+}
+
+#editar {
+  color: #4428AA;  
+  margin-right: 10px;
+}
+
+#editar:hover {
+    color: white;
+    background-color: #4428AA;
+}
+
+#cancelar {
+    color: #C91D1D;  
+}
+
+#cancelar:hover {
+    color: white;
+    background-color: #C91D1D;
+}

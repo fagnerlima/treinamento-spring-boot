@@ -1,0 +1,20 @@
+.dados {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+#cancelar {
+    margin-right: 10px;
+    background-color: #C91D1D;
+}
+
+#voltar {
+    background-color: #525252;
+}

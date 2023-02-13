@@ -1,0 +1,22 @@
+<div class="container-cancelar-venda">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Cancelar venda</mat-card-title>
+        </mat-card-header>
+        <div>
+            <h2 class="dados"><strong>Cliente: </strong>{{ venda.cliente }}</h2>
+            <h2 class="dados"><strong>Data/Hora: </strong>{{ venda.dataVenda }}</h2>
+            <h2 class="dados"><strong>Valor: </strong>{{ venda.valorVenda | currency: 'BRL'}}</h2>
+        </div>
+        <div class="form-button">
+            <div>
+                <button mat-raised-button type="submit" id="cancelar" (click)="cancelarVenda()">
+                    Cancelar
+                </button>
+                <button mat-raised-button type="submit" id="voltar" [routerLink]="['/vendas']">
+                    Voltar
+                </button>
+            </div>
+        </div>
+    </mat-card>
+</div>

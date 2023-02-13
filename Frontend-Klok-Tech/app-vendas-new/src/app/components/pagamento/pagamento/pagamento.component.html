@@ -1,0 +1,28 @@
+<div class="container-pagamento">
+    <mat-card>
+        <mat-card-title>Cancelar venda</mat-card-title>
+        
+        <div class="dados">
+            <h2><strong>Valor: </strong>{{ pagamento.valorPagamento | currency: 'BRL'}}</h2>
+            <h2><strong>Data/Hora: </strong>{{ pagamento.dataParcela }}</h2>
+        </div>
+        <mat-form-field appearance="outline">
+            <mat-label>Forma de Pagamento</mat-label>
+            <mat-select [(ngModel)]="formaPagamentoSelecionada" name="food">
+              <mat-option *ngFor="let pagamentos of formasPagamentos" [value]="pagamentos.value">
+                {{ pagamentos.viewValue }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        <div class="form-button">
+            <div>
+                <button mat-raised-button type="submit" id="pagar" [disabled]="!formaPagamentoSelecionada"  (click)="atualizarPagamento()">
+                    Efetuar pagamento
+                </button>
+                <button mat-raised-button type="submit" id="voltar" [routerLink]="['/vendas']">
+                    Voltar
+                </button>
+            </div>
+        </div>
+    </mat-card>
+</div>
